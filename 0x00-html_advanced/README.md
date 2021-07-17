@@ -1,0 +1,4 @@
+# 0x00. Advanced HTML
+![Error](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/4/4dec2ba9d84a0a55355b1c1e2de4c57854a2d35a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210717%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210717T161837Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6e483142f3aa3693e3fac405aa810b1d03cc2aa6885cff9c9d147e03730a1efe)
+
+The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. ... HTML elements are the building blocks of HTML pages.
