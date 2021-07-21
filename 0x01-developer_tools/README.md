@@ -1,0 +1,4 @@
+# 0x01. Developer tools
+![Error](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/0872ca9b19e11650e355.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210721%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210721T050223Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=25f852fc5b3d70420ea154b68871e1b95423a331ec60a2f998fa0c29a1b56155)
+
+The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. ... HTML elements are the building blocks of HTML pages.
