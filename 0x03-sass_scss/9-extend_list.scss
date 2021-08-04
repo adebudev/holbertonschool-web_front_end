@@ -6,14 +6,16 @@ $c-warning: #FF0000;
   font-size: $f-size;
 }
 
-.info .success .warning {
+.info {
   @extend %fontSize;
 }
 
 .success {
+  @extend %fontSize;
   color: $c-success;
 }
 
 .warning {
+  @extend %fontSize;
   color: $c-warning;
 }
