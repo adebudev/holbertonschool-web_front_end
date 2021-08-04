@@ -1,15 +1,12 @@
-$size1: 10px;
-$size2: 15px;
-
-@mixin nargin-r-l($margin-r, $margin-l) {
-  margin-left: $margin-l;
-  margin-right: $margin-r;
+@mixin nargin-r-l($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
 }
 
 body {
-  @include margin-r-l($size1, $size1);
+  @include margin-r-l(10px);
 }
 
 div {
-  @include margin-r-l($size2, $size2);
+  @include margin-r-l(15px);
 }
