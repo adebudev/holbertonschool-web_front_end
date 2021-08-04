@@ -1,5 +1,5 @@
 @for $i from 1 through 5 {
-  h1#{$i} {
+  h#{$i} {
     font-size: #{$i}px;
   }
 }
