@@ -1,0 +1,17 @@
+$f-size: 12px;
+$c-success: #00FF00;
+$c-warning: #FF0000;
+
+.info {
+  font-size: $f-size;
+}
+
+.success {
+  font-size: $f-size;
+  color: $c-success;
+}
+
+.warning {
+  font-size: $f-size;
+  color: $c-warning;
+}
