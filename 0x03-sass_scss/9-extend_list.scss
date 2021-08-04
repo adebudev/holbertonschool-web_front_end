@@ -11,11 +11,9 @@ $c-warning: #FF0000;
 }
 
 .success {
-  @extend %fontSize;
   color: $c-success;
 }
 
 .warning {
-  @extend %fontSize;
   color: $c-warning;
 }
