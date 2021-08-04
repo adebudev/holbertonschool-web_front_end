@@ -2,14 +2,20 @@ $f-size: 12px;
 $c-success: #00FF00;
 $c-warning: #FF0000;
 
-.info .success .warning {
+%fontSize {
   font-size: $f-size;
 }
 
+.info .success .warning {
+  @extend %fontSize;
+}
+
 .success {
+  @extend %fontSize;
   color: $c-success;
 }
 
 .warning {
+  @extend %fontSize;
   color: $c-warning;
 }
