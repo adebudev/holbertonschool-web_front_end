@@ -4,9 +4,9 @@ $f-size3: 12px;
 
 body {
   font-size: $f-size1;
-  h1 {
+  & h1 {
     font-size: $f-size2;
-    & .smaller {
+    &.smaller {
       font-size: $f-size3;
     }
   }
