@@ -6,7 +6,7 @@ const createClassRoom = (numbersOfStudents) => {
   }
   let students = [];
 
-  for(i = 0; i < numbersOfStudents; i++) {
+  for(let i = 0; i < numbersOfStudents; i++) {
     students.push(studentSeat(i + 1));
   };
 
