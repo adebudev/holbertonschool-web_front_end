@@ -10,7 +10,6 @@ const countPrimeNumbers = () => {
     return true;
   }
   
-
   return (function () {
     let primeNumbers = [];
     let num = 2;
