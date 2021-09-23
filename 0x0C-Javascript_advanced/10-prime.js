@@ -33,7 +33,7 @@ function main() {
   }
   let endTime = performance.now();
 
-  setTimeout(() => { console.log(`Execution time of calculating prime numbers 100 times was ${endTime - startTime} milliseconds.`);}, 0);
+  console.log(`Execution time of calculating prime numbers 100 times was ${endTime - startTime} milliseconds.`);
 }
 
 main();
