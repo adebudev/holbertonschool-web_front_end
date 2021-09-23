@@ -14,7 +14,7 @@ const countPrimeNumbers = () => {
   return (function () {
     let primeNumbers = [];
     let num = 2;
-    for (num; num < 11; num++) {
+    for (num; num <= 100; num++) {
       if(isPrime(num)) {
         primeNumbers.push(num);
       }
