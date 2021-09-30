@@ -22,6 +22,9 @@
         let email = document.getElementById("email");
         document.cookie = `firstname=${firstname.value}`;
         document.cookie = `email=${email.value}`;
+
+        firstname.value = " ";
+        email.value = " ";
       }
 
       function showCookies() {
