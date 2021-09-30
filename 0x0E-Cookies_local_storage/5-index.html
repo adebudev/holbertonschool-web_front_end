@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Login - Cookies</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <script>
+      const availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
+      if (typeof (localStorage) !== "undefined") {
+        createStore();
+        displayCart();
+      } else {
+        alert('Sorry, your browser does not support local storage. Try again with a better one');
+      }
+      function addItemToCart(item) {
+        localStorage.setItem(item, true);
+      }
+      function createStore() {
+        const ul = document.createElement("ul");
+        availableItems.forEach(item => {
+          let li = document.createElement("li");
+          li.innerHTML = item;
+          li.setAttribute('onclick', 'addItemToCart( " ' + item + ' " )');
+          ul.append(li);
+          document.querySelector("body").append(ul);
+        });
+      }
+      function displayCart() {
+        if (localStorage.length !== 0) {
+          const paragraph = document.createElement("p");
+          paragraph.innerHTML = `You previously had ${localStorage.length} items in your cart`;
+          document.querySelector("body").append(paragraph);
+        }
+      }
+    </script>
+  </body>
+</html>
