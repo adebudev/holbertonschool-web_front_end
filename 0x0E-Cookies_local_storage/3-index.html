@@ -23,7 +23,6 @@
         let email = document.getElementById("email");
 
         let expires = `expires=${date.toUTCString()}`;
-        console.log(expires)
         document.cookie = `firstname=${firstname.value}; ${expires}; path=/`;
         document.cookie = `email=${email.value}; ${expires}; path=/`;
 
