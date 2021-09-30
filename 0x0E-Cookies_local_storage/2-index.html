@@ -20,7 +20,7 @@
       function setCookies() {
         const days = 10;
         const date = new Date();
-        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
         let firstname = document.getElementById("firstname");
         let email = document.getElementById("email");
 
@@ -51,11 +51,12 @@
       function showCookies() {
         const firstname = getCookie("firstname");
         const email = getCookie("email");
-        let tagP = document.createElement('p');
-        tagP.innerHTML = `Email: ${email} - Firstname: ${firstname}`;
+        let tagP = document.createElement("p");
+        if (firstname != "" && email != "") {
+          tagP.innerHTML = `Email: ${email} - Firstname: ${firstname}`;
+        }
         document.body.append(tagP);
       }
-
     </script>
   </body>
 </html>
